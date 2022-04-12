@@ -18,7 +18,7 @@ public class ResponseBodyController {
     public void responseBodyV1(HttpServletResponse response) throws IOException {
         response.getWriter().write("ok");
 
-    }
+    }//
 
     @ResponseBody
     @ResponseStatus(HttpStatus.ACCEPTED)
